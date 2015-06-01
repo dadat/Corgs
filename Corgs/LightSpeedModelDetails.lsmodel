@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<model xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.1.0.0" name="LightSpeedModelDetails" targetNamespace="Corgs" databaseProvider="SqlServer2008" connectionString="Data Source=BARREDOPC\SQLEXPRESS;Initial Catalog=DBDat;Persist Security Info=True;User ID=rdmsdb;Password=rdms123;Pooling=False" pluralizedInDatabase="false" mediumTrustCompatibility="false" xmlns="http://namespaces.mindscape.co.nz/lightspeed">
+  <entities>
+    <entity name="TblRecord" identityType="Int64" cacheExpiry="0">
+      <entityProperties>
+        <entityProperty name="Fname" isNullable="true" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="50" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="Mname" isNullable="true" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="50" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="Lname" isNullable="true" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="50" />
+          </validations>
+        </entityProperty>
+        <entityProperty name="Age" dataType="Int32" isNullable="true" privateSetter="false" />
+        <entityProperty name="Vdate" dataType="DateTime" isNullable="true" privateSetter="false" />
+        <entityProperty name="CaseId" isNullable="true" privateSetter="false">
+          <validations>
+            <lengthValidation minimumLength="0" maximumLength="50" />
+          </validations>
+        </entityProperty>
+      </entityProperties>
+    </entity>
+  </entities>
+</model>
